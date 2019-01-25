@@ -34,7 +34,7 @@ arm in order to control the mobile robot
 
 2. Documentation
 ------------------------------------------------------------------------------
-Further information is available at the [HRIDD.pdf](/docs/latex/HRIDD) document.
+Further information is available at the [HRIDD.pdf](/docs/latex/HRIDD.pdf) document.
 
 
 3. Quick Start
@@ -51,7 +51,7 @@ Further information is available at the [HRIDD.pdf](/docs/latex/HRIDD) document.
 
 4. Video
 ------------------------------------------------------------------------------
-[![watch our dance](/docs/latex/figures/youtuve.png)](https://www.youtube.com/watch?v=Kw-lZam_qZI)
+[![watch](/docs/latex/figures/youtuve.png)](https://www.youtube.com/watch?v=Kw-lZam_qZI)
 
 
 4. LICENSE
