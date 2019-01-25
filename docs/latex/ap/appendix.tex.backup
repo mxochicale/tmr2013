@@ -1,0 +1,408 @@
+ \begin{appendices}
+
+  \chapter{Class Documentation}
+  
+  \section{\-Hridd \-Class \-Reference}
+\label{class_hridd}\index{\-Hridd@{\-Hridd}}
+{\ttfamily \#include $<$\-Hridd.\-h$>$}
+
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=225pt]{a}
+\end{center}
+\end{figure}
+
+\subsubsection*{\-Public \-Member \-Functions}
+\begin{itemize}
+\item 
+int {\bf \-Kbhit} (void)
+\item 
+void {\bf \-Gesture\-Control} ()
+\item 
+void {\bf \-Set\-A\-C\-C\-Frame\-Word} (unsigned int framevalue)
+\end{itemize}
+
+\subsubsection*{\-Public \-Attributes}
+\begin{itemize}
+\item 
+{\bf \-Pioneer\-Robot} {\bf robot}
+\item 
+{\bf \-Zxtar} {\bf sensor}
+\end{itemize}
+
+
+\subsubsection{\-Detailed \-Description}
+ \-Human-\/\-Robot \-Interaction \-Dance \-Demo class is aimed to combine the 
+\-Zxtar class accelerometer class,  the Pioneer\-Robot class so as to control the robot with the user's wearable accelerometer.
+\-Definition at line 16 of file \-Hridd.\-h.
+
+
+
+
+
+\subsubsection{\-Member \-Function \-Documentation}
+\index{\-Hridd@{\-Hridd}!\-Gesture\-Control@{\-Gesture\-Control}}
+\index{\-Gesture\-Control@{\-Gesture\-Control}!Hridd@{\-Hridd}}
+\paragraph[{\-Gesture\-Control}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Hridd\-::\-Gesture\-Control})}
+
+\-This method contains the main control gesture for the robot movements 
+
+\-Definition at line 40 of file \-Hridd.\-cpp.
+
+\-Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hridd_a0cb125f06d2dea3c85f2c88df2cf301b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+
+\index{\-Hridd@{\-Hridd}!\-Kbhit@{\-Kbhit}}
+\index{\-Kbhit@{\-Kbhit}!Hridd@{\-Hridd}}
+\paragraph[{\-Kbhit}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Hridd\-::\-Kbhit} (
+)}\label{class_hridd_a4685da7617842bea560df152d2c5eb2e}
+\-Method for the \-Keyboard hit 
+
+\-Definition at line 8 of file \-Hridd.\-cpp.
+
+\index{\-Hridd@{\-Hridd}!\-Set\-A\-C\-C\-Frame\-Word@{\-Set\-A\-C\-C\-Frame\-Word}}
+\index{\-Set\-A\-C\-C\-Frame\-Word@{\-Set\-A\-C\-C\-Frame\-Word}!Hridd@{\-Hridd}}
+\paragraph[{\-Set\-A\-C\-C\-Frame\-Word}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Hridd\-::\-Set\-A\-C\-C\-Frame\-Word} (
+)}\label{class_hridd_ab782ddac948b4f7aca0596408cf5b714}
+\-Function to set the \-Acceleration \-Frame \-Word 
+
+\-Definition at line 34 of file \-Hridd.\-cpp.
+
+
+
+\-Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_hridd_ab782ddac948b4f7aca0596408cf5b714_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsubsection{\-Member \-Data \-Documentation}
+\index{\-Hridd@{\-Hridd}!robot@{robot}}
+\index{robot@{robot}!Hridd@{\-Hridd}}
+\paragraph[{robot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Pioneer\-Robot} {\bf \-Hridd\-::robot}}\label{class_hridd_a4d70b5a2dc5597c34e05023ffb84935d}
+\-Data \-Member for the \-Pioner\-Robot \-Class which defines and initializes the robot 
+
+\-Definition at line 23 of file \-Hridd.\-h.
+
+\index{\-Hridd@{\-Hridd}!sensor@{sensor}}
+\index{sensor@{sensor}!Hridd@{\-Hridd}}
+\paragraph[{sensor}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Zxtar} {\bf \-Hridd\-::sensor}}\label{class_hridd_a883c2d9756ee45e1c0be3b2ec359cee8}
+\-Data \-Member for the \-Pioner\-Robot \-Class which defines and initializes the accelerometer sensor 
+
+\-Definition at line 28 of file \-Hridd.\-h.
+
+
+
+
+  \section{\-Pioneer\-Robot \-Class \-Reference}
+
+
+\label{class_pioneer_robot}\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}}
+
+
+{\ttfamily \#include $<$\-Pioneer\-Robot.\-h$>$}
+
+\subsubsection*{\-Public \-Member \-Functions}
+\begin{itemize}
+\item 
+{\bf \-Pioneer\-Robot} ()
+\item 
+{\bf $\sim$\-Pioneer\-Robot} ()
+\item 
+virtual bool {\bf init} ()
+\item 
+virtual void {\bf get\-Current\-Configuration} (std\-::vector$<$ double $>$ \&q)
+\item 
+virtual bool {\bf move\-To\-Configuration} (std\-::vector$<$ double $>$ configuration)
+\item 
+void {\bf \-Move\-Forward} ()
+\item 
+void {\bf \-Move\-Backward} ()
+\item 
+void {\bf \-Spin\-Left\-Slow} ()
+\item 
+void {\bf \-Spin\-Right\-Slow} ()
+\item 
+void {\bf \-Spin\-Left\-Fast} ()
+\item 
+void {\bf \-Spin\-Right\-Fast} ()
+\end{itemize}
+\subsubsection*{\-Public \-Attributes}
+\begin{itemize}
+\item 
+\-Ar\-Robot {\bf pioneer}
+\end{itemize}
+\subsubsection*{\-Protected \-Member \-Functions}
+\begin{itemize}
+\item 
+double {\bf validate\-Angle} (double angle)
+\end{itemize}
+
+
+\subsubsection{\-Detailed \-Description}
+
+
+\-Definition at line 13 of file \-Pioneer\-Robot.\-h.
+
+
+
+\subsubsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Pioneer\-Robot@{\-Pioneer\-Robot}}
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Pioneer\-Robot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Pioneer\-Robot\-::\-Pioneer\-Robot} (
+)}\label{class_pioneer_robot_aa90f53954d9e38db6e7ece95439fafae}
+
+
+\-Definition at line 3 of file \-Pioneer\-Robot.\-cpp.
+
+
+
+\-Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pioneer_robot_aa90f53954d9e38db6e7ece95439fafae_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!$\sim$\-Pioneer\-Robot@{$\sim$\-Pioneer\-Robot}}
+\index{$\sim$\-Pioneer\-Robot@{$\sim$\-Pioneer\-Robot}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{$\sim$\-Pioneer\-Robot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Pioneer\-Robot\-::$\sim$\-Pioneer\-Robot} (
+)}\label{class_pioneer_robot_af543718d0dc3bceef69c9fb2f604b701}
+
+
+\-Definition at line 9 of file \-Pioneer\-Robot.\-cpp.
+
+
+
+\subsubsection{\-Member \-Function \-Documentation}
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!get\-Current\-Configuration@{get\-Current\-Configuration}}
+\index{get\-Current\-Configuration@{get\-Current\-Configuration}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{get\-Current\-Configuration}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::get\-Current\-Configuration} (
+\begin{itemize}
+\item[{std\-::vector$<$ double $>$ \&}]{q}
+\end{itemize}
+)\hspace{0.3cm}{\ttfamily  [virtual]}}\label{class_pioneer_robot_a42cb581f7beeb71717951d9ae78e035b}
+
+
+\-Definition at line 76 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!init@{init}}
+\index{init@{init}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{init}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-Pioneer\-Robot\-::init} (
+)\hspace{0.3cm}{\ttfamily  [virtual]}}\label{class_pioneer_robot_a1524060d928fa3bb448c8cc7ef08f3cf}
+
+
+\-Definition at line 15 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Move\-Backward@{\-Move\-Backward}}
+\index{\-Move\-Backward@{\-Move\-Backward}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Move\-Backward}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Move\-Backward} (
+)}\label{class_pioneer_robot_aadf2a82ec535334ac57d216d98abc023}
+
+
+\-Definition at line 144 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Move\-Forward@{\-Move\-Forward}}
+\index{\-Move\-Forward@{\-Move\-Forward}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Move\-Forward}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Move\-Forward} (
+)}\label{class_pioneer_robot_a017c9e7b9a409f07f71f152024e927b9}
+
+
+\-Definition at line 149 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!move\-To\-Configuration@{move\-To\-Configuration}}
+\index{move\-To\-Configuration@{move\-To\-Configuration}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{move\-To\-Configuration}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-Pioneer\-Robot\-::move\-To\-Configuration} (
+\begin{itemize}
+\item[{std\-::vector$<$ double $>$}]{configuration}
+\end{itemize}
+)\hspace{0.3cm}{\ttfamily  [virtual]}}\label{class_pioneer_robot_a911225fb4f2611d77f5e2c9185098bec}
+
+
+\-Definition at line 91 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Spin\-Left\-Fast@{\-Spin\-Left\-Fast}}
+\index{\-Spin\-Left\-Fast@{\-Spin\-Left\-Fast}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Spin\-Left\-Fast}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Spin\-Left\-Fast} (
+)}\label{class_pioneer_robot_a4d151faa33be37f7ce1da5d59c907dc1}
+
+
+\-Definition at line 164 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Spin\-Left\-Slow@{\-Spin\-Left\-Slow}}
+\index{\-Spin\-Left\-Slow@{\-Spin\-Left\-Slow}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Spin\-Left\-Slow}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Spin\-Left\-Slow} (
+)}\label{class_pioneer_robot_a604a97dddb6910bb7ea086fd521c01fd}
+
+
+\-Definition at line 154 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Spin\-Right\-Fast@{\-Spin\-Right\-Fast}}
+\index{\-Spin\-Right\-Fast@{\-Spin\-Right\-Fast}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Spin\-Right\-Fast}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Spin\-Right\-Fast} (
+)}\label{class_pioneer_robot_afe663e18d34e3dc9bf3988df958f691d}
+
+
+\-Definition at line 169 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Spin\-Right\-Slow@{\-Spin\-Right\-Slow}}
+\index{\-Spin\-Right\-Slow@{\-Spin\-Right\-Slow}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Spin\-Right\-Slow}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Spin\-Right\-Slow} (
+)}\label{class_pioneer_robot_a976e2d9dcc5396b52ea323cce8d4f45a}
+
+
+\-Definition at line 159 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!validate\-Angle@{validate\-Angle}}
+\index{validate\-Angle@{validate\-Angle}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{validate\-Angle}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-Pioneer\-Robot\-::validate\-Angle} (
+\begin{itemize}
+\item[{double}]{angle}
+\end{itemize}
+)\hspace{0.3cm}{\ttfamily  [protected]}}\label{class_pioneer_robot_a418d07d081a9451edd4b7d7af804e926}
+
+
+\-Definition at line 132 of file \-Pioneer\-Robot.\-cpp.
+
+
+
+\subsubsection{\-Member \-Data \-Documentation}
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!pioneer@{pioneer}}
+\index{pioneer@{pioneer}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{pioneer}]{\setlength{\rightskip}{0pt plus 5cm}\-Ar\-Robot {\bf \-Pioneer\-Robot\-::pioneer}}\label{class_pioneer_robot_a05e2fbb4d51eef3358e122508cdbfbfb}
+
+
+\-Definition at line 31 of file \-Pioneer\-Robot.\-h.
+
+
+  
+  
+  
+  
+    \section{\-Port\-Device \-Class \-Reference}
+\label{class_port_device}\index{\-Port\-Device@{\-Port\-Device}}
+
+
+{\ttfamily \#include $<$\-Port\-Device.\-h$>$}
+
+\subsubsection*{\-Public \-Member \-Functions}
+\begin{itemize}
+\item 
+{\bf \-Port\-Device} ()
+\item 
+int {\bf \-Allocate\-Port\-Device} ()
+\item 
+int {\bf \-Config\-Port\-Device} ()
+\item 
+int {\bf \-Get\-Port\-Device} ()
+\item 
+void {\bf \-Clean\-Port\-Device} ()
+\item 
+void {\bf \-Close\-Port\-Device} ()
+\end{itemize}
+
+
+\subsubsection{\-Detailed \-Description}
+
+
+\-Definition at line 27 of file \-Port\-Device.\-h.
+
+
+
+\subsubsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Port\-Device@{\-Port\-Device}!\-Port\-Device@{\-Port\-Device}}
+\index{\-Port\-Device@{\-Port\-Device}!PortDevice@{\-Port\-Device}}
+\paragraph[{\-Port\-Device}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Port\-Device\-::\-Port\-Device} (
+)}\label{class_port_device_a12ea5f06d1850a4ef58b89f2c94c2039}
+\-Constructor to reset, to allocate and configurate the \-Z\-S\-T\-A\-R \-U\-S\-B \-Stick 
+
+\-Definition at line 4 of file \-Port\-Device.\-cpp.
+
+
+
+\-Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_port_device_a12ea5f06d1850a4ef58b89f2c94c2039_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsubsection{\-Member \-Function \-Documentation}
+\index{\-Port\-Device@{\-Port\-Device}!\-Allocate\-Port\-Device@{\-Allocate\-Port\-Device}}
+\index{\-Allocate\-Port\-Device@{\-Allocate\-Port\-Device}!PortDevice@{\-Port\-Device}}
+\paragraph[{\-Allocate\-Port\-Device}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Port\-Device\-::\-Allocate\-Port\-Device} (
+)}\label{class_port_device_ac93ffc96c1a14ee5d4b9eed9fb17d103}
+\-Set\-Port\-Device\-F\-D 
+
+\-Definition at line 13 of file \-Port\-Device.\-cpp.
+
+\index{\-Port\-Device@{\-Port\-Device}!\-Clean\-Port\-Device@{\-Clean\-Port\-Device}}
+\index{\-Clean\-Port\-Device@{\-Clean\-Port\-Device}!PortDevice@{\-Port\-Device}}
+\paragraph[{\-Clean\-Port\-Device}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Port\-Device\-::\-Clean\-Port\-Device} (
+)}\label{class_port_device_ab961a8d36a509d74ec73560ecf8e08c3}
+function to clean the \-Port \-Device 
+
+\-Definition at line 89 of file \-Port\-Device.\-cpp.
+
+\index{\-Port\-Device@{\-Port\-Device}!\-Close\-Port\-Device@{\-Close\-Port\-Device}}
+\index{\-Close\-Port\-Device@{\-Close\-Port\-Device}!PortDevice@{\-Port\-Device}}
+\paragraph[{\-Close\-Port\-Device}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Port\-Device\-::\-Close\-Port\-Device} (
+)}\label{class_port_device_a46070f7913dc823c394a5420efbe1e20}
+\-Close\-Port\-Device 
+
+\-Definition at line 83 of file \-Port\-Device.\-cpp.
+
+\index{\-Port\-Device@{\-Port\-Device}!\-Config\-Port\-Device@{\-Config\-Port\-Device}}
+\index{\-Config\-Port\-Device@{\-Config\-Port\-Device}!PortDevice@{\-Port\-Device}}
+\paragraph[{\-Config\-Port\-Device}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Port\-Device\-::\-Config\-Port\-Device} (
+)}\label{class_port_device_a40bbaa8614cadd8420fa32a72024aa0a}
+\-Config\-Port\-Device\-F\-D 
+
+\-Definition at line 28 of file \-Port\-Device.\-cpp.
+
+\index{\-Port\-Device@{\-Port\-Device}!\-Get\-Port\-Device@{\-Get\-Port\-Device}}
+\index{\-Get\-Port\-Device@{\-Get\-Port\-Device}!PortDevice@{\-Port\-Device}}
+\paragraph[{\-Get\-Port\-Device}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf \-Port\-Device\-::\-Get\-Port\-Device} (
+)}\label{class_port_device_a385e13c178d6d8b61688e7df29e43f71}
+function to get the port's \-F\-I\-L\-E \-D\-E\-S\-C\-R\-I\-P\-T\-O\-R 
+
+\-Definition at line 78 of file \-Port\-Device.\-cpp.
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+\end{appendices}
+

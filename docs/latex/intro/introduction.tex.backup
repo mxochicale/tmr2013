@@ -1,0 +1,174 @@
+
+\chapter{Introduction}
+
+
+Ubiquitous computing is based on a new family of devices 
+bywhich their information is thoroughly integrated into everyday objects and activities. 
+These devices are sensors for measuring diferent physical phenomenons.
+% such as video, acceleration, and even wireless comunication.
+Thus, it is possible to create interfaces that merge human-wereable devices 
+with a mobile robot, promoting human-robot interactions.
+However the majority of such HRI are aimed at 
+the home activities and are not suitable for 
+common social interactions such as dancing.
+
+To address this concern, we developed a human-robot interface dance demo in which 
+a single-accelerometer sensor board is werared on the user's left wrist 
+in order to detect four diferent gestures by using statistical theory. 
+% a the arm movements of the user are going to detect movements 
+
+This technical report describes the connection of the ZSTAR3 sensor board accelerometer
+with the pionerbot robot for gesture recognition.
+Methods for hand gesture recognition based accereation signals using Statistical Theory are described first;
+and a simple control strategy for the dance demo performance.
+Finally, discussion and suggestions
+for future work are given together with conclusions.
+
+% \citet{Auth09}
+% \citep{Mono08,Auth09}.
+
+% Next two kinds of
+% testing schemes are implemented. The experimental results
+% across five subjects show the great potential of our system for
+% intelligent user interfaces. 
+
+
+% 
+% Materials and Methods
+% Results and Discussion
+
+% Thus, we attempt to integrate gait analysis technology with
+% accelerometer and gyroscope to create a novel dancing game.
+% We place interface devices onto pants and socks and derive
+% input signals based on the movement of hips and feet when
+% playing the game. Also using ubiquitous wireless network to
+% gather signals from wearable sensors, the player can explore
+% the virtual world without being limited by the sitting down or
+% standing up position on the same spot due to the constraints of
+% fixed equipment and wires.
+
+
+% Our initial goal was targeted in rehabilitation and home
+% healthcare [1][2][3]. We have further made it into a dance
+% game [4]. To detect the movement of lower limb has been a
+% key technology in rehab, now it may be applied to interactive
+% games. In our previous studies, we applied digital textile
+% sensors to detect posture or estimate human gait. On the other
+% fronts, we have realized much research has disclosed body
+% movement detection systems based on wearable accelerometer
+% and gyroscope.
+
+
+
+% Novel input techniques have received popular attention in
+% computer game research since the spread of Wii by Nintendo.
+
+% With augmented reality, one can create interfaces that merge
+% virtual objects and signal data with the real world, promoting
+% flexible people-machine and people-people interactions. 
+
+
+
+
+
+
+
+% The bibliographic entries are to be kept in a file named
+% \verb|<something>.bib|. In this sample report we call it as
+% \verb|mylit.bib|. This file must be included without the \verb|.bib|
+% extension in the main file as: \verb|\bibliography{mylit}|.   Open the
+% file \verb|mylit.bib| to see the format in which the entries are
+% written. This is written in the Bib\TeX format. Most of the
+% bibliographic web pages (Scopus, ISI Web) and software (EndNote, etc)
+% allow you to export bibliographic entries in the Bib\TeX format.
+% 
+% Citations are referred in the text using \verb|\citet| command which produces
+% citations as though they are part of the text.  In order to say
+% somebody did this work as a part of a line use: \verb|\citet{Auth09}|
+% have done extensive work on \ldots.  
+
+% This will produce
+% 
+% \citet{Auth09} have done extensive work on \ldots
+% 
+% 
+% Alternately citations can appear in parenthesis.  The
+% command \verb|\citep{Auth09}| is used to automatically put the
+% citations in parenthesis.
+%   As an example consider the extensive work
+% done in the area of book writing \citep{Mono08,Auth09}.
+
+
+% This document contains commonly used essential templates to write a
+% \LaTeX\ document. This document is to be used along with the files and
+% folders provided. Writing a \LaTeX\ document is very simple.  Often
+% students need only very simple constructs.  This document shows
+% certain essential features that almost all technical report writing
+% requires. Please consult the PDF file for the output of the document,
+% and then look at the corresponding \LaTeX\ file to reproduce it.  The
+% document illustrates the following constructs
+% \begin{itemize}
+% \item Unnumbered and Numbered Lists
+% \item Equations
+% \item Defining short macros for frequently used symbols
+% \item Bibliography
+% \item Figures
+% \item Tables
+% \end{itemize}
+% 
+% The normal procedure for compiling a \LaTeX\ document that contains
+% bibliographic entries is to follow the following steps
+% \begin{enumerate}
+% \item \verb|latex mainrep|
+% \item \verb|bibtex mainrep|
+% \item \verb|latex mainrep|
+% \item \verb|latex mainrep|
+% \end{enumerate}
+% In the above example \verb|mainrep| is the main \LaTeX\ file.
+% 
+% 
+% \section{First section of this chapter}
+% 
+% This is the first chapter, which resides in a directory (folder)
+% intro. Each chapter can contain \verb|section|, \verb|subsection|
+% and so on.
+% 
+% \subsection{Equations and Math symbols}
+% 
+% 
+% Equations should be set in a separate mode.  For details on getting
+% various types of aligned equations, consult the \AmS-\LaTeX\
+% documentation \verb|amsldoc.pdf|. Simple equations are set as
+% \begin{equation}
+% \label{eq:sinx}
+% \int \mathrm{d}x \; \cos x =  \sin x
+% \end{equation}
+% Equation~\eqref{eq:sinx} is the integral of the cosine
+% function. Mathematical symbols must always be put inside \verb|$$|,
+% when they appear outside a math environment (such as \verb|equation|,
+% \verb|align|, \verb|gather|, etc).  The symbol ``ex'' must be written as
+% $x$ and not as x.  
+% 
+% Another commonly used construct for equations is the \verb|align|
+% environment to align several equations along a vertical line. It is
+% usually the $=$ sign across which the alignment is done.  The
+% point of alignment for each equation is specified using the ampersand symbol 
+% \begin{align}
+% a &= b  \\
+% a + e + f + g & = m + n + z \\
+% x + 2 & = x^{3} + 3 x^{2} + 2 x + 5
+% \end{align}
+% 
+% \subsection{Commonly used Symbols}
+% For mathematical symbols it is very convenient to define frequently
+% used symbols as a short macro. For example if you are to be using the
+% symbol $\eta_{\mathrm{s}}$ frequently it is convenient to define it in
+% as:\\
+% \verb|\newcommand{\etas}{\ensuremath{\eta_{\mathrm{s}}}}| \\
+% in the preamble and to simply refer it to in the text as \etas\ or in
+% a mathematical equation as $\etas = \eta \, ( 1 + \phi)$.
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../mainrep"
+%%% End: 

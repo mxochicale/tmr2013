@@ -1,0 +1,213 @@
+\subsection{\-Pioneer\-Robot \-Class \-Reference}
+\label{class_pioneer_robot}\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}}
+
+
+{\ttfamily \#include $<$\-Pioneer\-Robot.\-h$>$}
+
+\subsubsection*{\-Public \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\bf \-Pioneer\-Robot} ()
+\item 
+{\bf $\sim$\-Pioneer\-Robot} ()
+\item 
+virtual bool {\bf init} ()
+\item 
+virtual void {\bf get\-Current\-Configuration} (std\-::vector$<$ double $>$ \&q)
+\item 
+virtual bool {\bf move\-To\-Configuration} (std\-::vector$<$ double $>$ configuration)
+\item 
+void {\bf \-Move\-Forward} ()
+\item 
+void {\bf \-Move\-Backward} ()
+\item 
+void {\bf \-Spin\-Left\-Slow} ()
+\item 
+void {\bf \-Spin\-Right\-Slow} ()
+\item 
+void {\bf \-Spin\-Left\-Fast} ()
+\item 
+void {\bf \-Spin\-Right\-Fast} ()
+\end{DoxyCompactItemize}
+\subsubsection*{\-Public \-Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\-Ar\-Robot {\bf pioneer}
+\end{DoxyCompactItemize}
+\subsubsection*{\-Protected \-Member \-Functions}
+\begin{DoxyCompactItemize}
+\item 
+double {\bf validate\-Angle} (double angle)
+\end{DoxyCompactItemize}
+
+
+\subsubsection{\-Detailed \-Description}
+
+
+\-Definition at line 13 of file \-Pioneer\-Robot.\-h.
+
+
+
+\subsubsection{\-Constructor \& \-Destructor \-Documentation}
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Pioneer\-Robot@{\-Pioneer\-Robot}}
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Pioneer\-Robot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Pioneer\-Robot\-::\-Pioneer\-Robot} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pioneer_robot_aa90f53954d9e38db6e7ece95439fafae}
+
+
+\-Definition at line 3 of file \-Pioneer\-Robot.\-cpp.
+
+
+
+\-Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_pioneer_robot_aa90f53954d9e38db6e7ece95439fafae_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!$\sim$\-Pioneer\-Robot@{$\sim$\-Pioneer\-Robot}}
+\index{$\sim$\-Pioneer\-Robot@{$\sim$\-Pioneer\-Robot}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{$\sim$\-Pioneer\-Robot}]{\setlength{\rightskip}{0pt plus 5cm}{\bf \-Pioneer\-Robot\-::$\sim$\-Pioneer\-Robot} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pioneer_robot_af543718d0dc3bceef69c9fb2f604b701}
+
+
+\-Definition at line 9 of file \-Pioneer\-Robot.\-cpp.
+
+
+
+\subsubsection{\-Member \-Function \-Documentation}
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!get\-Current\-Configuration@{get\-Current\-Configuration}}
+\index{get\-Current\-Configuration@{get\-Current\-Configuration}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{get\-Current\-Configuration}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::get\-Current\-Configuration} (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ double $>$ \&}]{q}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  [virtual]}}\label{class_pioneer_robot_a42cb581f7beeb71717951d9ae78e035b}
+
+
+\-Definition at line 76 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!init@{init}}
+\index{init@{init}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{init}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-Pioneer\-Robot\-::init} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  [virtual]}}\label{class_pioneer_robot_a1524060d928fa3bb448c8cc7ef08f3cf}
+
+
+\-Definition at line 15 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Move\-Backward@{\-Move\-Backward}}
+\index{\-Move\-Backward@{\-Move\-Backward}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Move\-Backward}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Move\-Backward} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pioneer_robot_aadf2a82ec535334ac57d216d98abc023}
+
+
+\-Definition at line 144 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Move\-Forward@{\-Move\-Forward}}
+\index{\-Move\-Forward@{\-Move\-Forward}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Move\-Forward}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Move\-Forward} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pioneer_robot_a017c9e7b9a409f07f71f152024e927b9}
+
+
+\-Definition at line 149 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!move\-To\-Configuration@{move\-To\-Configuration}}
+\index{move\-To\-Configuration@{move\-To\-Configuration}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{move\-To\-Configuration}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf \-Pioneer\-Robot\-::move\-To\-Configuration} (
+\begin{DoxyParamCaption}
+\item[{std\-::vector$<$ double $>$}]{configuration}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  [virtual]}}\label{class_pioneer_robot_a911225fb4f2611d77f5e2c9185098bec}
+
+
+\-Definition at line 91 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Spin\-Left\-Fast@{\-Spin\-Left\-Fast}}
+\index{\-Spin\-Left\-Fast@{\-Spin\-Left\-Fast}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Spin\-Left\-Fast}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Spin\-Left\-Fast} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pioneer_robot_a4d151faa33be37f7ce1da5d59c907dc1}
+
+
+\-Definition at line 164 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Spin\-Left\-Slow@{\-Spin\-Left\-Slow}}
+\index{\-Spin\-Left\-Slow@{\-Spin\-Left\-Slow}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Spin\-Left\-Slow}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Spin\-Left\-Slow} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pioneer_robot_a604a97dddb6910bb7ea086fd521c01fd}
+
+
+\-Definition at line 154 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Spin\-Right\-Fast@{\-Spin\-Right\-Fast}}
+\index{\-Spin\-Right\-Fast@{\-Spin\-Right\-Fast}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Spin\-Right\-Fast}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Spin\-Right\-Fast} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pioneer_robot_afe663e18d34e3dc9bf3988df958f691d}
+
+
+\-Definition at line 169 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!\-Spin\-Right\-Slow@{\-Spin\-Right\-Slow}}
+\index{\-Spin\-Right\-Slow@{\-Spin\-Right\-Slow}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{\-Spin\-Right\-Slow}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf \-Pioneer\-Robot\-::\-Spin\-Right\-Slow} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pioneer_robot_a976e2d9dcc5396b52ea323cce8d4f45a}
+
+
+\-Definition at line 159 of file \-Pioneer\-Robot.\-cpp.
+
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!validate\-Angle@{validate\-Angle}}
+\index{validate\-Angle@{validate\-Angle}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{validate\-Angle}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf \-Pioneer\-Robot\-::validate\-Angle} (
+\begin{DoxyParamCaption}
+\item[{double}]{angle}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  [protected]}}\label{class_pioneer_robot_a418d07d081a9451edd4b7d7af804e926}
+
+
+\-Definition at line 132 of file \-Pioneer\-Robot.\-cpp.
+
+
+
+\subsubsection{\-Member \-Data \-Documentation}
+\index{\-Pioneer\-Robot@{\-Pioneer\-Robot}!pioneer@{pioneer}}
+\index{pioneer@{pioneer}!PioneerRobot@{\-Pioneer\-Robot}}
+\paragraph[{pioneer}]{\setlength{\rightskip}{0pt plus 5cm}\-Ar\-Robot {\bf \-Pioneer\-Robot\-::pioneer}}\label{class_pioneer_robot_a05e2fbb4d51eef3358e122508cdbfbfb}
+
+
+\-Definition at line 31 of file \-Pioneer\-Robot.\-h.
+
+
+
+\-The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/{\bf \-Pioneer\-Robot.\-h}\item 
+/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/{\bf \-Pioneer\-Robot.\-cpp}\end{DoxyCompactItemize}

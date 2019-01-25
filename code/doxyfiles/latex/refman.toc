@@ -1,0 +1,96 @@
+\contentsline {chapter}{\numberline {1}\discretionary {-}{}{}Class \discretionary {-}{}{}Index}{1}{chapter.1}
+\contentsline {subsection}{\numberline {1.0.1}\discretionary {-}{}{}Class \discretionary {-}{}{}List}{1}{subsection.1.0.1}
+\contentsline {chapter}{\numberline {2}\discretionary {-}{}{}File \discretionary {-}{}{}Index}{3}{chapter.2}
+\contentsline {subsection}{\numberline {2.0.2}\discretionary {-}{}{}File \discretionary {-}{}{}List}{3}{subsection.2.0.2}
+\contentsline {chapter}{\numberline {3}\discretionary {-}{}{}Class \discretionary {-}{}{}Documentation}{5}{chapter.3}
+\contentsline {subsection}{\numberline {3.0.3}\discretionary {-}{}{}Hridd \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{5}{subsection.3.0.3}
+\contentsline {subsubsection}{\numberline {3.0.3.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{6}{subsubsection.3.0.3.1}
+\contentsline {subsubsection}{\numberline {3.0.3.2}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{6}{subsubsection.3.0.3.2}
+\contentsline {paragraph}{\numberline {3.0.3.2.1}\discretionary {-}{}{}Gesture\discretionary {-}{}{}Control}{6}{paragraph.3.0.3.2.1}
+\contentsline {paragraph}{\numberline {3.0.3.2.2}\discretionary {-}{}{}Kbhit}{7}{paragraph.3.0.3.2.2}
+\contentsline {paragraph}{\numberline {3.0.3.2.3}\discretionary {-}{}{}Set\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Frame\discretionary {-}{}{}Word}{7}{paragraph.3.0.3.2.3}
+\contentsline {subsubsection}{\numberline {3.0.3.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{8}{subsubsection.3.0.3.3}
+\contentsline {paragraph}{\numberline {3.0.3.3.1}robot}{8}{paragraph.3.0.3.3.1}
+\contentsline {paragraph}{\numberline {3.0.3.3.2}sensor}{8}{paragraph.3.0.3.3.2}
+\contentsline {subsection}{\numberline {3.0.4}\discretionary {-}{}{}Pioneer\discretionary {-}{}{}Robot \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{8}{subsection.3.0.4}
+\contentsline {subsubsection}{\numberline {3.0.4.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{9}{subsubsection.3.0.4.1}
+\contentsline {subsubsection}{\numberline {3.0.4.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{9}{subsubsection.3.0.4.2}
+\contentsline {paragraph}{\numberline {3.0.4.2.1}\discretionary {-}{}{}Pioneer\discretionary {-}{}{}Robot}{9}{paragraph.3.0.4.2.1}
+\contentsline {paragraph}{\numberline {3.0.4.2.2}$\sim $\discretionary {-}{}{}Pioneer\discretionary {-}{}{}Robot}{9}{paragraph.3.0.4.2.2}
+\contentsline {subsubsection}{\numberline {3.0.4.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{9}{subsubsection.3.0.4.3}
+\contentsline {paragraph}{\numberline {3.0.4.3.1}get\discretionary {-}{}{}Current\discretionary {-}{}{}Configuration}{9}{paragraph.3.0.4.3.1}
+\contentsline {paragraph}{\numberline {3.0.4.3.2}init}{9}{paragraph.3.0.4.3.2}
+\contentsline {paragraph}{\numberline {3.0.4.3.3}\discretionary {-}{}{}Move\discretionary {-}{}{}Backward}{10}{paragraph.3.0.4.3.3}
+\contentsline {paragraph}{\numberline {3.0.4.3.4}\discretionary {-}{}{}Move\discretionary {-}{}{}Forward}{10}{paragraph.3.0.4.3.4}
+\contentsline {paragraph}{\numberline {3.0.4.3.5}move\discretionary {-}{}{}To\discretionary {-}{}{}Configuration}{10}{paragraph.3.0.4.3.5}
+\contentsline {paragraph}{\numberline {3.0.4.3.6}\discretionary {-}{}{}Spin\discretionary {-}{}{}Left\discretionary {-}{}{}Fast}{10}{paragraph.3.0.4.3.6}
+\contentsline {paragraph}{\numberline {3.0.4.3.7}\discretionary {-}{}{}Spin\discretionary {-}{}{}Left\discretionary {-}{}{}Slow}{10}{paragraph.3.0.4.3.7}
+\contentsline {paragraph}{\numberline {3.0.4.3.8}\discretionary {-}{}{}Spin\discretionary {-}{}{}Right\discretionary {-}{}{}Fast}{10}{paragraph.3.0.4.3.8}
+\contentsline {paragraph}{\numberline {3.0.4.3.9}\discretionary {-}{}{}Spin\discretionary {-}{}{}Right\discretionary {-}{}{}Slow}{10}{paragraph.3.0.4.3.9}
+\contentsline {paragraph}{\numberline {3.0.4.3.10}validate\discretionary {-}{}{}Angle}{10}{paragraph.3.0.4.3.10}
+\contentsline {subsubsection}{\numberline {3.0.4.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{10}{subsubsection.3.0.4.4}
+\contentsline {paragraph}{\numberline {3.0.4.4.1}pioneer}{10}{paragraph.3.0.4.4.1}
+\contentsline {subsection}{\numberline {3.0.5}\discretionary {-}{}{}Port\discretionary {-}{}{}Device \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{10}{subsection.3.0.5}
+\contentsline {subsubsection}{\numberline {3.0.5.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{11}{subsubsection.3.0.5.1}
+\contentsline {subsubsection}{\numberline {3.0.5.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{11}{subsubsection.3.0.5.2}
+\contentsline {paragraph}{\numberline {3.0.5.2.1}\discretionary {-}{}{}Port\discretionary {-}{}{}Device}{11}{paragraph.3.0.5.2.1}
+\contentsline {subsubsection}{\numberline {3.0.5.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{11}{subsubsection.3.0.5.3}
+\contentsline {paragraph}{\numberline {3.0.5.3.1}\discretionary {-}{}{}Allocate\discretionary {-}{}{}Port\discretionary {-}{}{}Device}{11}{paragraph.3.0.5.3.1}
+\contentsline {paragraph}{\numberline {3.0.5.3.2}\discretionary {-}{}{}Clean\discretionary {-}{}{}Port\discretionary {-}{}{}Device}{11}{paragraph.3.0.5.3.2}
+\contentsline {paragraph}{\numberline {3.0.5.3.3}\discretionary {-}{}{}Close\discretionary {-}{}{}Port\discretionary {-}{}{}Device}{12}{paragraph.3.0.5.3.3}
+\contentsline {paragraph}{\numberline {3.0.5.3.4}\discretionary {-}{}{}Config\discretionary {-}{}{}Port\discretionary {-}{}{}Device}{12}{paragraph.3.0.5.3.4}
+\contentsline {paragraph}{\numberline {3.0.5.3.5}\discretionary {-}{}{}Get\discretionary {-}{}{}Port\discretionary {-}{}{}Device}{12}{paragraph.3.0.5.3.5}
+\contentsline {subsection}{\numberline {3.0.6}\discretionary {-}{}{}Zxtar \discretionary {-}{}{}Class \discretionary {-}{}{}Reference}{12}{subsection.3.0.6}
+\contentsline {subsubsection}{\numberline {3.0.6.1}\discretionary {-}{}{}Detailed \discretionary {-}{}{}Description}{13}{subsubsection.3.0.6.1}
+\contentsline {subsubsection}{\numberline {3.0.6.2}\discretionary {-}{}{}Constructor \& \discretionary {-}{}{}Destructor \discretionary {-}{}{}Documentation}{14}{subsubsection.3.0.6.2}
+\contentsline {paragraph}{\numberline {3.0.6.2.1}\discretionary {-}{}{}Zxtar}{14}{paragraph.3.0.6.2.1}
+\contentsline {paragraph}{\numberline {3.0.6.2.2}\discretionary {-}{}{}Zxtar}{14}{paragraph.3.0.6.2.2}
+\contentsline {subsubsection}{\numberline {3.0.6.3}\discretionary {-}{}{}Member \discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{15}{subsubsection.3.0.6.3}
+\contentsline {paragraph}{\numberline {3.0.6.3.1}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Acquisition}{15}{paragraph.3.0.6.3.1}
+\contentsline {paragraph}{\numberline {3.0.6.3.2}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Print}{16}{paragraph.3.0.6.3.2}
+\contentsline {paragraph}{\numberline {3.0.6.3.3}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}X\discretionary {-}{}{}Frame}{16}{paragraph.3.0.6.3.3}
+\contentsline {paragraph}{\numberline {3.0.6.3.4}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}X\discretionary {-}{}{}Frame\discretionary {-}{}{}Average}{16}{paragraph.3.0.6.3.4}
+\contentsline {paragraph}{\numberline {3.0.6.3.5}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}X\discretionary {-}{}{}Frame\discretionary {-}{}{}Print}{17}{paragraph.3.0.6.3.5}
+\contentsline {paragraph}{\numberline {3.0.6.3.6}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}X\discretionary {-}{}{}Frame\discretionary {-}{}{}Std\discretionary {-}{}{}Deviation}{17}{paragraph.3.0.6.3.6}
+\contentsline {paragraph}{\numberline {3.0.6.3.7}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Y\discretionary {-}{}{}Frame}{17}{paragraph.3.0.6.3.7}
+\contentsline {paragraph}{\numberline {3.0.6.3.8}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Y\discretionary {-}{}{}Frame\discretionary {-}{}{}Average}{17}{paragraph.3.0.6.3.8}
+\contentsline {paragraph}{\numberline {3.0.6.3.9}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Y\discretionary {-}{}{}Frame\discretionary {-}{}{}Print}{17}{paragraph.3.0.6.3.9}
+\contentsline {paragraph}{\numberline {3.0.6.3.10}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Y\discretionary {-}{}{}Frame\discretionary {-}{}{}Std\discretionary {-}{}{}Deviation}{17}{paragraph.3.0.6.3.10}
+\contentsline {paragraph}{\numberline {3.0.6.3.11}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Z\discretionary {-}{}{}Frame}{17}{paragraph.3.0.6.3.11}
+\contentsline {paragraph}{\numberline {3.0.6.3.12}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Z\discretionary {-}{}{}Frame\discretionary {-}{}{}Average}{18}{paragraph.3.0.6.3.12}
+\contentsline {paragraph}{\numberline {3.0.6.3.13}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Z\discretionary {-}{}{}Frame\discretionary {-}{}{}Print}{18}{paragraph.3.0.6.3.13}
+\contentsline {paragraph}{\numberline {3.0.6.3.14}\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Z\discretionary {-}{}{}Frame\discretionary {-}{}{}Std\discretionary {-}{}{}Deviation}{18}{paragraph.3.0.6.3.14}
+\contentsline {paragraph}{\numberline {3.0.6.3.15}\discretionary {-}{}{}Available\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C}{18}{paragraph.3.0.6.3.15}
+\contentsline {paragraph}{\numberline {3.0.6.3.16}\discretionary {-}{}{}Data\discretionary {-}{}{}Rate}{19}{paragraph.3.0.6.3.16}
+\contentsline {paragraph}{\numberline {3.0.6.3.17}\discretionary {-}{}{}Get\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}X}{19}{paragraph.3.0.6.3.17}
+\contentsline {paragraph}{\numberline {3.0.6.3.18}\discretionary {-}{}{}Get\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}X\discretionary {-}{}{}Frame\discretionary {-}{}{}Avarage}{20}{paragraph.3.0.6.3.18}
+\contentsline {paragraph}{\numberline {3.0.6.3.19}\discretionary {-}{}{}Get\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}X\discretionary {-}{}{}Frame\discretionary {-}{}{}Std\discretionary {-}{}{}Deviation}{20}{paragraph.3.0.6.3.19}
+\contentsline {paragraph}{\numberline {3.0.6.3.20}\discretionary {-}{}{}Get\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Y}{20}{paragraph.3.0.6.3.20}
+\contentsline {paragraph}{\numberline {3.0.6.3.21}\discretionary {-}{}{}Get\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Y\discretionary {-}{}{}Frame\discretionary {-}{}{}Avarage}{20}{paragraph.3.0.6.3.21}
+\contentsline {paragraph}{\numberline {3.0.6.3.22}\discretionary {-}{}{}Get\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Y\discretionary {-}{}{}Frame\discretionary {-}{}{}Std\discretionary {-}{}{}Deviation}{20}{paragraph.3.0.6.3.22}
+\contentsline {paragraph}{\numberline {3.0.6.3.23}\discretionary {-}{}{}Get\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Z}{20}{paragraph.3.0.6.3.23}
+\contentsline {paragraph}{\numberline {3.0.6.3.24}\discretionary {-}{}{}Get\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Z\discretionary {-}{}{}Frame\discretionary {-}{}{}Avarage}{20}{paragraph.3.0.6.3.24}
+\contentsline {paragraph}{\numberline {3.0.6.3.25}\discretionary {-}{}{}Get\discretionary {-}{}{}A\discretionary {-}{}{}C\discretionary {-}{}{}C\discretionary {-}{}{}Z\discretionary {-}{}{}Frame\discretionary {-}{}{}Std\discretionary {-}{}{}Deviation}{20}{paragraph.3.0.6.3.25}
+\contentsline {paragraph}{\numberline {3.0.6.3.26}\discretionary {-}{}{}Kbhit}{20}{paragraph.3.0.6.3.26}
+\contentsline {paragraph}{\numberline {3.0.6.3.27}print\discretionary {-}{}{}Time}{20}{paragraph.3.0.6.3.27}
+\contentsline {paragraph}{\numberline {3.0.6.3.28}\discretionary {-}{}{}Set\discretionary {-}{}{}Frame\discretionary {-}{}{}Word}{21}{paragraph.3.0.6.3.28}
+\contentsline {paragraph}{\numberline {3.0.6.3.29}\discretionary {-}{}{}Set\discretionary {-}{}{}Sensitivity}{21}{paragraph.3.0.6.3.29}
+\contentsline {paragraph}{\numberline {3.0.6.3.30}start\discretionary {-}{}{}Timer}{21}{paragraph.3.0.6.3.30}
+\contentsline {paragraph}{\numberline {3.0.6.3.31}stop\discretionary {-}{}{}Timer}{21}{paragraph.3.0.6.3.31}
+\contentsline {subsubsection}{\numberline {3.0.6.4}\discretionary {-}{}{}Member \discretionary {-}{}{}Data \discretionary {-}{}{}Documentation}{21}{subsubsection.3.0.6.4}
+\contentsline {paragraph}{\numberline {3.0.6.4.1}\discretionary {-}{}{}Z\discretionary {-}{}{}S\discretionary {-}{}{}T\discretionary {-}{}{}A\discretionary {-}{}{}R}{21}{paragraph.3.0.6.4.1}
+\contentsline {chapter}{\numberline {4}\discretionary {-}{}{}File \discretionary {-}{}{}Documentation}{23}{chapter.4}
+\contentsline {subsection}{\numberline {4.0.7}/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/\discretionary {-}{}{}Hridd.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{23}{subsection.4.0.7}
+\contentsline {subsection}{\numberline {4.0.8}/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/\discretionary {-}{}{}Hridd.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{23}{subsection.4.0.8}
+\contentsline {subsection}{\numberline {4.0.9}/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/main.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{24}{subsection.4.0.9}
+\contentsline {subsubsection}{\numberline {4.0.9.1}\discretionary {-}{}{}Function \discretionary {-}{}{}Documentation}{25}{subsubsection.4.0.9.1}
+\contentsline {paragraph}{\numberline {4.0.9.1.1}main}{25}{paragraph.4.0.9.1.1}
+\contentsline {subsection}{\numberline {4.0.10}/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/\discretionary {-}{}{}Pioneer\discretionary {-}{}{}Robot.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{26}{subsection.4.0.10}
+\contentsline {subsection}{\numberline {4.0.11}/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/\discretionary {-}{}{}Pioneer\discretionary {-}{}{}Robot.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{26}{subsection.4.0.11}
+\contentsline {subsection}{\numberline {4.0.12}/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/\discretionary {-}{}{}Port\discretionary {-}{}{}Device.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{27}{subsection.4.0.12}
+\contentsline {subsection}{\numberline {4.0.13}/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/\discretionary {-}{}{}Port\discretionary {-}{}{}Device.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{27}{subsection.4.0.13}
+\contentsline {subsubsection}{\numberline {4.0.13.1}\discretionary {-}{}{}Define \discretionary {-}{}{}Documentation}{28}{subsubsection.4.0.13.1}
+\contentsline {paragraph}{\numberline {4.0.13.1.1}\discretionary {-}{}{}U\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}V\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E1}{28}{paragraph.4.0.13.1.1}
+\contentsline {paragraph}{\numberline {4.0.13.1.2}\discretionary {-}{}{}U\discretionary {-}{}{}S\discretionary {-}{}{}B\discretionary {-}{}{}D\discretionary {-}{}{}E\discretionary {-}{}{}V\discretionary {-}{}{}I\discretionary {-}{}{}C\discretionary {-}{}{}E2}{28}{paragraph.4.0.13.1.2}
+\contentsline {subsection}{\numberline {4.0.14}/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/\discretionary {-}{}{}Zxtar.cpp \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{28}{subsection.4.0.14}
+\contentsline {subsection}{\numberline {4.0.15}/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/\discretionary {-}{}{}Zxtar.h \discretionary {-}{}{}File \discretionary {-}{}{}Reference}{29}{subsection.4.0.15}

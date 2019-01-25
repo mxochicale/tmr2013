@@ -1,0 +1,25 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_hridd.html#ab782ddac948b4f7aca0596408cf5b714" title="Hridd::SetACCFrameWord" alt="" coords="104,59,283,88"/>
+<area shape="rect" id="node7" href="$class_hridd.html#a4685da7617842bea560df152d2c5eb2e" title="Hridd::Kbhit" alt="" coords="148,192,239,221"/>
+<area shape="rect" id="node9" href="$class_hridd.html#a0cb125f06d2dea3c85f2c88df2cf301b" title="Hridd::GestureControl" alt="" coords="119,405,268,435"/>
+<area shape="rect" id="node5" href="$class_zxtar.html#ab1fcbd04a4b7c72c464a18d65bc66826" title="Zxtar::SetFrameWord" alt="" coords="360,5,507,35"/>
+<area shape="rect" id="node11" href="$class_zxtar.html#ac5fb3cd141135976bd9edd5d05b7e95e" title="Zxtar::ACCAcquisition" alt="" coords="357,59,509,88"/>
+<area shape="rect" id="node15" href="$class_zxtar.html#aaef8fc83168462e070d4eb2884c6faba" title="Zxtar::ACCXFrame" alt="" coords="367,112,500,141"/>
+<area shape="rect" id="node19" href="$class_zxtar.html#a8623ff9e740e0d6068f8b85ba2499a24" title="Zxtar::ACCXFrameAverage" alt="" coords="343,165,524,195"/>
+<area shape="rect" id="node21" href="$class_zxtar.html#a199057b6f8e74055b3c275ee2b2b1ea1" title="Zxtar::ACCYFrame" alt="" coords="367,219,500,248"/>
+<area shape="rect" id="node25" href="$class_zxtar.html#a2ae4a211920a7ed0709956aa2d378508" title="Zxtar::ACCYFrameAverage" alt="" coords="343,272,524,301"/>
+<area shape="rect" id="node27" href="$class_zxtar.html#a38c761a822e613fa23fda04c0b947cf0" title="Zxtar::ACCZFrame" alt="" coords="367,325,500,355"/>
+<area shape="rect" id="node31" href="$class_zxtar.html#a20d5673fac7f757e102eb2642e4a8066" title="Zxtar::ACCZFrameAverage" alt="" coords="343,379,524,408"/>
+<area shape="rect" id="node33" href="$class_zxtar.html#a36337fe44ca204e5118ccb09247d2cf4" title="Zxtar::GetACCYFrameAvarage" alt="" coords="332,432,535,461"/>
+<area shape="rect" id="node35" href="$class_pioneer_robot.html#a4d151faa33be37f7ce1da5d59c907dc1" title="PioneerRobot::SpinLeftFast" alt="" coords="343,485,524,515"/>
+<area shape="rect" id="node37" href="$class_pioneer_robot.html#a604a97dddb6910bb7ea086fd521c01fd" title="PioneerRobot::SpinLeftSlow" alt="" coords="340,539,527,568"/>
+<area shape="rect" id="node39" href="$class_zxtar.html#ac98474432e60260d18c7d82b98066f38" title="Zxtar::GetACCZFrameAvarage" alt="" coords="332,592,535,621"/>
+<area shape="rect" id="node41" href="$class_pioneer_robot.html#aadf2a82ec535334ac57d216d98abc023" title="PioneerRobot::MoveBackward" alt="" coords="335,645,532,675"/>
+<area shape="rect" id="node43" href="$class_pioneer_robot.html#a017c9e7b9a409f07f71f152024e927b9" title="PioneerRobot::MoveForward" alt="" coords="340,699,527,728"/>
+<area shape="rect" id="node45" href="$class_pioneer_robot.html#a976e2d9dcc5396b52ea323cce8d4f45a" title="PioneerRobot::SpinRightSlow" alt="" coords="336,752,531,781"/>
+<area shape="rect" id="node47" href="$class_pioneer_robot.html#afe663e18d34e3dc9bf3988df958f691d" title="PioneerRobot::SpinRightFast" alt="" coords="337,805,529,835"/>
+<area shape="rect" id="node13" href="$class_port_device.html#a385e13c178d6d8b61688e7df29e43f71" title="PortDevice::GetPortDevice" alt="" coords="584,59,765,88"/>
+<area shape="rect" id="node17" href="$class_zxtar.html#a2d281a6f0b4af1415534315c49310fa2" title="Zxtar::GetACCX" alt="" coords="616,112,733,141"/>
+<area shape="rect" id="node23" href="$class_zxtar.html#ae4a5f6a374a0bf48e62a8066509ddd95" title="Zxtar::GetACCY" alt="" coords="616,219,733,248"/>
+<area shape="rect" id="node29" href="$class_zxtar.html#a457606063c02dac5bd51c570f52d17e9" title="Zxtar::GetACCZ" alt="" coords="616,325,733,355"/>
+</map>

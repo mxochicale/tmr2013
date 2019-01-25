@@ -1,0 +1,25 @@
+\begin{thebibliography}{1}
+
+\bibitem{zstar}
+Drm103 designer reference manual.
+\newblock
+  \url{http://www.freescale.com/files/microcontrollers/doc/ref_manual/ZSTAR3RM%
+.pdf}.
+\newblock Accessed: 2013-06-24.
+
+\bibitem{robocupathome2013}
+Robocup@home: Rules & regulations.
+\newblock \url{http://ccc.inaoep.mx/~tmr2013/pdf/robocupathome2013.pdf}.
+\newblock Accessed: 2013-06-24.
+
+\bibitem{Auth09}
+First Author, S.~Writer, and Third Scientist.
+\newblock Any title for the article, authors to be separated by \verb|and|.
+\newblock {\em New Journal of Biliography}, 21:10--28, 2009.
+
+\bibitem{Mono08}
+Novel Author and Interesting Writer.
+\newblock {\em Experiences with Book Writing}.
+\newblock Random Mouse, Mumbai, 3 edition, 2008.
+
+\end{thebibliography}

@@ -1,0 +1,27 @@
+\chapter{Introduction}
+
+
+Human-Robot Interaction (HRI) has received much attention in recent years
+due to its ubiquitous computing, which is based on a new family of devices 
+bywhich their information is thoroughly integrated into everyday objects and activities. 
+These devices are sensors for measuring different physical phenomenons.
+% such as video, acceleration, and even wireless communication.
+Thus, it is possible to create interfaces that merge human-wearable devices 
+with a mobile robot, promoting human-robot interactions.
+However, the majority of regular tests at the Robocub{@}home 
+category are aimed at home activities such as: follow me, cocktail party, clean up,
+and emergency fire situation in the apartment \cite{robocupathome2013}; and, therefore, 
+little attention has been paid to the entertainment activities such as dancing.
+
+To address this concern, a human-robot interaction dance demo were developed 
+in which a single-accelerometer is weared on the user's left wrist 
+in order to detect four different gestures to move the robot by using statistical theory. 
+% a the arm movements of the user are going to detect movements 
+The video 
+\href{http://www.youtube.com/watch?v=Kw-lZam_qZI}{\url{http://www.youtube.com/watch?v=Kw-lZam_qZI}} shows the dance demo at the 2013 Mexican Tournament of Robotics.
+
+This technical report describes the connection of the ZSTAR3 sensor board accelerometer
+with the pionerbot robot for gesture recognition. Next, the HRI Application used is described.
+Methods for hand gesture recognition based on acceleration signals using statistical theory are described first;
+and a simple control algorithm strategy for the dance demo performance is provided.
+Lastly, discussion and suggestions for future work are given together with conclusions.

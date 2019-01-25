@@ -1,0 +1,50 @@
+//Header for the Hridd Class (Hridd.h)
+
+#ifndef HRIDD_H
+#define HRIDD_H
+
+#include <unistd.h>   
+
+#include "Zxtar.h"
+#include "PioneerRobot.h"
+
+    /**
+     * Human-Robot Interaction Dance Demo class is aimed 
+     * to combine the Zxtar accelerometer class, the PioneerRobot class
+     * so as to control the robot with the user's wearable accelerometer
+     */
+class Hridd
+{
+  public:
+  
+    /**
+     * Data Member for the PionerRobot Class which defines and initializes the robot
+     */
+    PioneerRobot robot;  	
+    
+     /**
+     * Data Member for the PionerRobot Class which defines and initializes the accelerometer sensor
+     */
+    Zxtar sensor;		
+  
+
+    /**
+    * Method for the Keyboard hit
+    */
+    int Kbhit (void);
+    
+    /**
+    *
+    * This method contains the main control gesture for the robot movements
+    * 
+    */
+    void GestureControl();
+    
+    /**
+     * Function to set the Acceleration Frame Word
+     */ 
+    void SetACCFrameWord(unsigned int framevalue);
+    
+};
+
+#endif // HRIDD_H

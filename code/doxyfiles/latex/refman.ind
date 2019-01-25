@@ -1,0 +1,202 @@
+\begin{theindex}
+
+  \item {$\sim$\-Pioneer\-Robot}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{4}
+  \item {/home/mapx/xfiles/markovito/freescale/tex/hridancedemo001/main.\-cpp}, 
+		\hyperpage{18}
+  \item {\-A\-C\-C\-Acquisition}
+    \subitem {\-Zxtar}, \hyperpage{11}
+  \item {\-A\-C\-C\-Print}
+    \subitem {\-Zxtar}, \hyperpage{11}
+  \item {\-A\-C\-C\-X\-Frame}
+    \subitem {\-Zxtar}, \hyperpage{12}
+  \item {\-A\-C\-C\-X\-Frame\-Average}
+    \subitem {\-Zxtar}, \hyperpage{12}
+  \item {\-A\-C\-C\-X\-Frame\-Print}
+    \subitem {\-Zxtar}, \hyperpage{12}
+  \item {\-A\-C\-C\-X\-Frame\-Std\-Deviation}
+    \subitem {\-Zxtar}, \hyperpage{12}
+  \item {\-A\-C\-C\-Y\-Frame}
+    \subitem {\-Zxtar}, \hyperpage{13}
+  \item {\-A\-C\-C\-Y\-Frame\-Average}
+    \subitem {\-Zxtar}, \hyperpage{13}
+  \item {\-A\-C\-C\-Y\-Frame\-Print}
+    \subitem {\-Zxtar}, \hyperpage{13}
+  \item {\-A\-C\-C\-Y\-Frame\-Std\-Deviation}
+    \subitem {\-Zxtar}, \hyperpage{13}
+  \item {\-A\-C\-C\-Z\-Frame}
+    \subitem {\-Zxtar}, \hyperpage{13}
+  \item {\-A\-C\-C\-Z\-Frame\-Average}
+    \subitem {\-Zxtar}, \hyperpage{14}
+  \item {\-A\-C\-C\-Z\-Frame\-Print}
+    \subitem {\-Zxtar}, \hyperpage{14}
+  \item {\-A\-C\-C\-Z\-Frame\-Std\-Deviation}
+    \subitem {\-Zxtar}, \hyperpage{14}
+  \item {\-Allocate\-Port\-Device}
+    \subitem {\-Port\-Device}, \hyperpage{6}
+  \item {\-Available\-A\-C\-C}
+    \subitem {\-Zxtar}, \hyperpage{14}
+  \item {\-Clean\-Port\-Device}
+    \subitem {\-Port\-Device}, \hyperpage{7}
+  \item {\-Close\-Port\-Device}
+    \subitem {\-Port\-Device}, \hyperpage{7}
+  \item {\-Config\-Port\-Device}
+    \subitem {\-Port\-Device}, \hyperpage{7}
+  \item {\-Data\-Rate}
+    \subitem {\-Zxtar}, \hyperpage{15}
+  \item {\-Gesture\-Control}
+    \subitem {\-Hridd}, \hyperpage{2}
+  \item {\-Get\-A\-C\-C\-X}
+    \subitem {\-Zxtar}, \hyperpage{15}
+  \item {\-Get\-A\-C\-C\-X\-Frame\-Avarage}
+    \subitem {\-Zxtar}, \hyperpage{15}
+  \item {\-Get\-A\-C\-C\-X\-Frame\-Std\-Deviation}
+    \subitem {\-Zxtar}, \hyperpage{16}
+  \item {\-Get\-A\-C\-C\-Y}
+    \subitem {\-Zxtar}, \hyperpage{16}
+  \item {\-Get\-A\-C\-C\-Y\-Frame\-Avarage}
+    \subitem {\-Zxtar}, \hyperpage{16}
+  \item {\-Get\-A\-C\-C\-Y\-Frame\-Std\-Deviation}
+    \subitem {\-Zxtar}, \hyperpage{16}
+  \item {\-Get\-A\-C\-C\-Z}
+    \subitem {\-Zxtar}, \hyperpage{16}
+  \item {\-Get\-A\-C\-C\-Z\-Frame\-Avarage}
+    \subitem {\-Zxtar}, \hyperpage{16}
+  \item {\-Get\-A\-C\-C\-Z\-Frame\-Std\-Deviation}
+    \subitem {\-Zxtar}, \hyperpage{16}
+  \item {\-Get\-Port\-Device}
+    \subitem {\-Port\-Device}, \hyperpage{7}
+  \item {\-Hridd}, \hyperpage{1}
+    \subitem {\-Gesture\-Control}, \hyperpage{2}
+    \subitem {\-Kbhit}, \hyperpage{2}
+    \subitem {\-Set\-A\-C\-C\-Frame\-Word}, \hyperpage{3}
+    \subitem {robot}, \hyperpage{3}
+    \subitem {sensor}, \hyperpage{3}
+  \item {\-Kbhit}
+    \subitem {\-Hridd}, \hyperpage{2}
+    \subitem {\-Zxtar}, \hyperpage{16}
+  \item {\-Move\-Backward}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+  \item {\-Move\-Forward}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+  \item {\-Pioneer\-Robot}, \hyperpage{3}
+    \subitem {$\sim$\-Pioneer\-Robot}, \hyperpage{4}
+    \subitem {\-Move\-Backward}, \hyperpage{5}
+    \subitem {\-Move\-Forward}, \hyperpage{5}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{4}
+    \subitem {\-Spin\-Left\-Fast}, \hyperpage{5}
+    \subitem {\-Spin\-Left\-Slow}, \hyperpage{5}
+    \subitem {\-Spin\-Right\-Fast}, \hyperpage{5}
+    \subitem {\-Spin\-Right\-Slow}, \hyperpage{5}
+    \subitem {get\-Current\-Configuration}, \hyperpage{5}
+    \subitem {init}, \hyperpage{5}
+    \subitem {move\-To\-Configuration}, \hyperpage{5}
+    \subitem {pioneer}, \hyperpage{5}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{4}
+    \subitem {validate\-Angle}, \hyperpage{5}
+  \item {\-Port\-Device}, \hyperpage{6}
+    \subitem {\-Allocate\-Port\-Device}, \hyperpage{6}
+    \subitem {\-Clean\-Port\-Device}, \hyperpage{7}
+    \subitem {\-Close\-Port\-Device}, \hyperpage{7}
+    \subitem {\-Config\-Port\-Device}, \hyperpage{7}
+    \subitem {\-Get\-Port\-Device}, \hyperpage{7}
+    \subitem {\-Port\-Device}, \hyperpage{6}
+    \subitem {\-Port\-Device}, \hyperpage{6}
+  \item {\-Set\-A\-C\-C\-Frame\-Word}
+    \subitem {\-Hridd}, \hyperpage{3}
+  \item {\-Set\-Frame\-Word}
+    \subitem {\-Zxtar}, \hyperpage{17}
+  \item {\-Set\-Sensitivity}
+    \subitem {\-Zxtar}, \hyperpage{17}
+  \item {\-Spin\-Left\-Fast}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+  \item {\-Spin\-Left\-Slow}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+  \item {\-Spin\-Right\-Fast}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+  \item {\-Spin\-Right\-Slow}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+  \item {\-Z\-S\-T\-A\-R}
+    \subitem {\-Zxtar}, \hyperpage{17}
+  \item {\-Zxtar}, \hyperpage{7}
+    \subitem {\-A\-C\-C\-Acquisition}, \hyperpage{11}
+    \subitem {\-A\-C\-C\-Print}, \hyperpage{11}
+    \subitem {\-A\-C\-C\-X\-Frame}, \hyperpage{12}
+    \subitem {\-A\-C\-C\-X\-Frame\-Average}, \hyperpage{12}
+    \subitem {\-A\-C\-C\-X\-Frame\-Print}, \hyperpage{12}
+    \subitem {\-A\-C\-C\-X\-Frame\-Std\-Deviation}, \hyperpage{12}
+    \subitem {\-A\-C\-C\-Y\-Frame}, \hyperpage{13}
+    \subitem {\-A\-C\-C\-Y\-Frame\-Average}, \hyperpage{13}
+    \subitem {\-A\-C\-C\-Y\-Frame\-Print}, \hyperpage{13}
+    \subitem {\-A\-C\-C\-Y\-Frame\-Std\-Deviation}, \hyperpage{13}
+    \subitem {\-A\-C\-C\-Z\-Frame}, \hyperpage{13}
+    \subitem {\-A\-C\-C\-Z\-Frame\-Average}, \hyperpage{14}
+    \subitem {\-A\-C\-C\-Z\-Frame\-Print}, \hyperpage{14}
+    \subitem {\-A\-C\-C\-Z\-Frame\-Std\-Deviation}, \hyperpage{14}
+    \subitem {\-Available\-A\-C\-C}, \hyperpage{14}
+    \subitem {\-Data\-Rate}, \hyperpage{15}
+    \subitem {\-Get\-A\-C\-C\-X}, \hyperpage{15}
+    \subitem {\-Get\-A\-C\-C\-X\-Frame\-Avarage}, \hyperpage{15}
+    \subitem {\-Get\-A\-C\-C\-X\-Frame\-Std\-Deviation}, \hyperpage{16}
+    \subitem {\-Get\-A\-C\-C\-Y}, \hyperpage{16}
+    \subitem {\-Get\-A\-C\-C\-Y\-Frame\-Avarage}, \hyperpage{16}
+    \subitem {\-Get\-A\-C\-C\-Y\-Frame\-Std\-Deviation}, \hyperpage{16}
+    \subitem {\-Get\-A\-C\-C\-Z}, \hyperpage{16}
+    \subitem {\-Get\-A\-C\-C\-Z\-Frame\-Avarage}, \hyperpage{16}
+    \subitem {\-Get\-A\-C\-C\-Z\-Frame\-Std\-Deviation}, \hyperpage{16}
+    \subitem {\-Kbhit}, \hyperpage{16}
+    \subitem {\-Set\-Frame\-Word}, \hyperpage{17}
+    \subitem {\-Set\-Sensitivity}, \hyperpage{17}
+    \subitem {\-Z\-S\-T\-A\-R}, \hyperpage{17}
+    \subitem {\-Zxtar}, \hyperpage{9, 10}
+    \subitem {print\-Time}, \hyperpage{16}
+    \subitem {start\-Timer}, \hyperpage{17}
+    \subitem {stop\-Timer}, \hyperpage{17}
+    \subitem {\-Zxtar}, \hyperpage{9, 10}
+
+  \indexspace
+
+  \item {get\-Current\-Configuration}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+
+  \indexspace
+
+  \item {init}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\-cpp}, \hyperpage{18}
+  \item {main.\-cpp}
+    \subitem {main}, \hyperpage{18}
+  \item {move\-To\-Configuration}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+
+  \indexspace
+
+  \item {pioneer}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+  \item {print\-Time}
+    \subitem {\-Zxtar}, \hyperpage{16}
+
+  \indexspace
+
+  \item {robot}
+    \subitem {\-Hridd}, \hyperpage{3}
+
+  \indexspace
+
+  \item {sensor}
+    \subitem {\-Hridd}, \hyperpage{3}
+  \item {start\-Timer}
+    \subitem {\-Zxtar}, \hyperpage{17}
+  \item {stop\-Timer}
+    \subitem {\-Zxtar}, \hyperpage{17}
+
+  \indexspace
+
+  \item {validate\-Angle}
+    \subitem {\-Pioneer\-Robot}, \hyperpage{5}
+
+\end{theindex}

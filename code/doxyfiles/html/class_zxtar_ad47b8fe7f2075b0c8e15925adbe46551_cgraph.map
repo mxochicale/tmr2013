@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$class_zxtar.html#a2700322341a53e4db4250c819218161d" title="Zxtar::AvailableACC" alt="" coords="145,192,287,221"/>
+<area shape="rect" id="node21" href="$class_zxtar.html#a7b07dfc237f67c1e444a8114a1e087ee" title="Zxtar::SetSensitivity" alt="" coords="145,375,287,404"/>
+<area shape="rect" id="node24" href="$class_zxtar.html#acc66525a310d1f24e3d985ac85c846f2" title="Zxtar::DataRate" alt="" coords="159,428,273,457"/>
+<area shape="rect" id="node5" href="$class_zxtar.html#a5fdc5fa7aaba3621ba452fd092b79beb" title="Zxtar::startTimer" alt="" coords="355,5,472,35"/>
+<area shape="rect" id="node7" href="$class_zxtar.html#ac5fb3cd141135976bd9edd5d05b7e95e" title="Zxtar::ACCAcquisition" alt="" coords="337,59,489,88"/>
+<area shape="rect" id="node11" href="$class_zxtar.html#a2d281a6f0b4af1415534315c49310fa2" title="Zxtar::GetACCX" alt="" coords="355,112,472,141"/>
+<area shape="rect" id="node13" href="$class_zxtar.html#ae4a5f6a374a0bf48e62a8066509ddd95" title="Zxtar::GetACCY" alt="" coords="355,165,472,195"/>
+<area shape="rect" id="node15" href="$class_zxtar.html#a457606063c02dac5bd51c570f52d17e9" title="Zxtar::GetACCZ" alt="" coords="355,219,472,248"/>
+<area shape="rect" id="node17" href="$class_zxtar.html#ac7e152ff3caa185696bdbdab1e245570" title="Zxtar::stopTimer" alt="" coords="355,272,472,301"/>
+<area shape="rect" id="node19" href="$class_zxtar.html#a54cab536bc19272a7af54346f0746251" title="Zxtar::printTime" alt="" coords="356,325,471,355"/>
+<area shape="rect" id="node9" href="$class_port_device.html#a385e13c178d6d8b61688e7df29e43f71" title="PortDevice::GetPortDevice" alt="" coords="539,377,720,407"/>
+</map>

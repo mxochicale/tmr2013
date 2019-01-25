@@ -1,0 +1,115 @@
+\documentclass[12pt,a4paper,openright]{report} 
+\includeonly{%
+  intro/introduction,
+  lit/literature,
+  expt/experimental,
+  rnd/results,
+  ap/appendix,
+}
+
+\usepackage{ifpdf}
+            \ifpdf
+\usepackage[bookmarks,%
+            a4paper,%
+            breaklinks,%
+            backref=false,%
+            dvips,ps2pdf,%
+            pdfhighlight=/I,%
+            pdffitwindow=true,%
+            pdfstartview=Fit,%
+            pdfcenterwindow=true,%
+%             linkbordercolor={1 0 0},%
+%             urlcolor=blue,
+%             linkcolor=red,
+            pdftitle=A Human-Robot Interaction Dance Demo--- Perez-Xochicale M.A.,%
+            pdfauthor=Perez-Xochicale Miguel Angel]%
+            {hyperref}
+\else
+\usepackage[ps2pdf,
+            pagebackref=true,
+            colorlinks=true,
+            linkcolor=blue,
+            unicode
+           ]{hyperref}
+\usepackage{pspicture}
+\fi
+
+
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\usepackage{amssymb,amsmath}
+
+
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+
+\usepackage{times}
+\usepackage[varg]{txfonts}
+
+
+\usepackage[titletoc]{appendix}
+% http://stackoverflow.com/questions/5690679/add-appendix-before-a-in-thesis-toc?lq=1
+
+\usepackage{listings}
+\lstset{language=C++,frame=none}
+
+\newcommand{\etas}{\ensuremath{\eta_{\mathrm{s}}}}
+
+
+
+
+\begin{document}
+\title{A Human-Robot Interaction Dance Demo \\ -- a Short Technical Report}
+\author{P\'erez-Xochicale Miguel Angel\\
+    INAOE's Robotics Laboratory\\
+    \href{mailto:perez.xochicale@gmail.com}{\nolinkurl{perez.xochicale@gmail.com} } 
+    }
+
+\date{July 2013}
+
+\maketitle
+
+
+\begin{abstract}
+This work presents a Human-Robot Interation (HRI) Dance Demo, 
+which is based on a ZSTAR3 Radio Frequency single three-axis 
+accelerometer and a Patrolbot mobile robot.
+The ZSTAR3 sensor board is located in the position of the user's left
+wrist. With the wereable accelerometer, 
+we explore four movements of the arm in order to control the mobile robot.
+We experiment with different gesture patterns for discerning 
+a waltz dance perfomance.
+This short technical report involves an explanation of the HRI connection,
+the HRI application, the hand gesture control algorithm, and the appendix 
+for the class documentation.
+
+
+\end{abstract}
+
+\pagenumbering{roman}
+\tableofcontents
+
+\cleardoublepage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+
+\include{intro/introduction}
+\include{expt/experimental}
+\include{rnd/results}
+
+\appendix
+\include{ap/appendix}
+
+
+
+\bibliographystyle{plain}
+\bibliography{mylit}
+
+\end{document}
+
+
+
+
